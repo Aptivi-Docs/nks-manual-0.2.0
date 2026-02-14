@@ -1,10 +1,6 @@
 ---
 description: Changing how the encryption works
 icon: plug-circle-bolt
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-drivers/encryption-drivers
 ---
 
 # Encryption Drivers

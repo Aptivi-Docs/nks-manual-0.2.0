@@ -1,10 +1,6 @@
 ---
 description: Changing how the filesystem works
 icon: plug-circle-bolt
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-drivers/filesystem-drivers
 ---
 
 # Filesystem Drivers
