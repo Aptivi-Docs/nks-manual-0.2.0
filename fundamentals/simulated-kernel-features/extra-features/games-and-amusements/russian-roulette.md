@@ -1,6 +1,10 @@
 ---
 description: Want to play Russian Roulette, man?
 icon: slot-machine
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/russian-roulette
 ---
 
 # Russian Roulette

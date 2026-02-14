@@ -1,6 +1,10 @@
 ---
 description: You're connected to the network!
 icon: earth-europe
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/network-tools
 ---
 
 # Network Tools

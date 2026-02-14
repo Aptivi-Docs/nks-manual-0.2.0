@@ -1,6 +1,10 @@
 ---
 description: Build the simulator on Android!
 icon: android
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/building-the-kernel/building-on-android
 ---
 
 # Building on Android
@@ -22,25 +26,25 @@ If you are a hardcore command-line user or if you prefer using the command-line,
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Open your terminal emulator</mark>
+#### <mark style="color:$primary;">Open your terminal emulator</mark>
 
 Open your terminal emulator on your work directory
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Clone the repository</mark>
+#### <mark style="color:$primary;">Clone the repository</mark>
 
 Execute `git clone https://github.com/Aptivi/Nitrocid.git`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Build the repository</mark>
+#### <mark style="color:$primary;">Build the repository</mark>
 
-Navigate to the cloned repository, `Nitrocid`, then execute `make dbg` for debug builds and `make` for release builds, or `dotnet restore` and `dotnet build`&#x20;
+Navigate to the cloned repository, `Nitrocid`, then execute `make dbg` for debug builds and `make` for release builds, or `dotnet restore` and `dotnet build`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Run the project</mark>
+#### <mark style="color:$primary;">Run the project</mark>
 
 After building is done, run `dotnet run`
 {% endstep %}

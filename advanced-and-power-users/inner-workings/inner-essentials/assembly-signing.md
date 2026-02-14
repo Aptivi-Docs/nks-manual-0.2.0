@@ -1,6 +1,10 @@
 ---
 description: Sign here, please.
 icon: pen-fancy
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/assembly-signing
 ---
 
 # Assembly Signing
@@ -13,7 +17,7 @@ While the modern .NET does not use strict assembly loading if you have strongly 
 
 ***
 
-## <mark style="color:$primary;">`AssemblySigning`</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">class</mark>
+## <mark style="color:$primary;">`AssemblySigning`</mark> <mark style="color:$primary;">class</mark>
 
 In the `Signing` part of the `Security` namespace, there is an assembly signing tools class, called `AssemblySigning`, that allows you access to various tools that are used for assembly signing, including checking to see if a given assembly is signed.
 

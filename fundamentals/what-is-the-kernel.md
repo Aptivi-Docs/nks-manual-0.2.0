@@ -1,6 +1,10 @@
 ---
 description: In general...
 icon: corn
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/what-is-the-kernel
 ---
 
 # What is the Kernel?

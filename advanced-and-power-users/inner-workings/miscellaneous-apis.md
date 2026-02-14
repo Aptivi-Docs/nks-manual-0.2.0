@@ -3,6 +3,10 @@ description: >-
   Other inner workings that don't fit with the inner essentials and might be
   useful for your mods
 icon: galaxy
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/miscellaneous-apis
 ---
 
 # Miscellaneous APIs

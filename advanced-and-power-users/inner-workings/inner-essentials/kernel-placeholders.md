@@ -1,6 +1,10 @@
 ---
 description: Do you want to <placeholder>?
 icon: billboard
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-placeholders
 ---
 
 # Kernel Placeholders
@@ -82,8 +86,6 @@ These are the placeholders and what possible values are going to replace them wh
 | `<ridgeneric>`                    | Gets the non-specific RID for your operating system                                |
 | `<termemu>`                       | Terminal emulator used (empty on Windows)                                          |
 | `<termtype>`                      | Terminal type used (empty on Windows)                                              |
-
-
 
 </details>
 

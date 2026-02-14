@@ -1,6 +1,10 @@
 ---
 description: What are the widgets?
 icon: calendar-range
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/widgets
 ---
 
 # Widgets

@@ -1,6 +1,10 @@
 ---
 description: Transfer your files securely between your servers and your PC
 icon: lock-keyhole
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking/sftp-client
 ---
 
 # SFTP Client

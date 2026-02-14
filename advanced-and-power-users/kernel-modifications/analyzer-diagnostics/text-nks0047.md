@@ -1,6 +1,10 @@
 ---
 description: Use TextTools.SplitNewLines()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/text-nks0047
 ---
 
 # Text - NKS0047

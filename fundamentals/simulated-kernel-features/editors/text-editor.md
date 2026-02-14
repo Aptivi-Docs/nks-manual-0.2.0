@@ -1,6 +1,10 @@
 ---
 description: Editing your text is easy!
 icon: spell-check
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/editors/text-editor
 ---
 
 # Text Editor

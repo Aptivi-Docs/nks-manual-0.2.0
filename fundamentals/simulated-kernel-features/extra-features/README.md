@@ -1,6 +1,10 @@
 ---
 description: Features that are available only in the kernel addons
 icon: sparkles
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features
 ---
 
 # Extra Features

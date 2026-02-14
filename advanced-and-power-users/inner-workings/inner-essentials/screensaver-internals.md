@@ -1,6 +1,10 @@
 ---
 description: Your mods and your screensavers
 icon: desktop
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/screensaver-internals
 ---
 
 # Screensaver Internals
@@ -111,7 +115,7 @@ If you want your mod to lock your screen, call the above function to initiate lo
 
 Once you press any key, this function checks to see if you have password requirement after locking enabled. If it's enabled, the login handler will check to see if your password is empty. If it's not empty, it'll prompt for your password before unlocking.
 
-### <mark style="color:$primary;">Lock prevention</mark>
+#### <mark style="color:$primary;">Lock prevention</mark>
 
 Your mod can prevent screen locking by calling the below function:
 

@@ -1,6 +1,10 @@
 ---
 description: Making your own themes easily.
 icon: palette
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/theme-studio
 ---
 
 # Theme Studio

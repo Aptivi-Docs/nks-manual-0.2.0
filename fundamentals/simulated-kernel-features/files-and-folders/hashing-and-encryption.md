@@ -1,6 +1,10 @@
 ---
 description: We need to verify your files.
 icon: key-skeleton
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/files-and-folders/hashing-and-encryption
 ---
 
 # Hashing and Encryption
@@ -21,13 +25,13 @@ Expand a section to get started.
 
 This part of the entire encryption feature for files is a crucial part, because it involves using your encryption driver to let you get a hash sum for a file or a text. This is also used to calculate the hash sum for a file prior to verification to check to see if your file is tampered with or not.
 
-### <mark style="color:$primary;">Usage</mark>
+#### <mark style="color:$primary;">Usage</mark>
 
 The following commands are available for you to try out:
 
 <table><thead><tr><th width="119.66668701171875">Command</th><th>Description</th></tr></thead><tbody><tr><td><code>sumfile</code></td><td>Allows you to get a hash sum for a single file</td></tr><tr><td><code>sumfiles</code></td><td>Allows you to get a hash sum for a single directory</td></tr><tr><td><code>sumtext</code></td><td>Allows you to get a hash sum for a text</td></tr></tbody></table>
 
-### <mark style="color:$primary;">Tools</mark>
+#### <mark style="color:$primary;">Tools</mark>
 
 In the `Encryption` class found in the `Nitrocid.Drivers.Encryption` namespace, you can access the hashing tools to give your mods ability to use the current encryption driver to encrypt your files and your texts.
 
@@ -42,8 +46,6 @@ The following functions are available:
 
 <summary>Verifying a hash sum</summary>
 
-
-
 <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can also use the verification feature in both the main command-line shell and in your mod's code to allow you to check a file to see if the two hashes (calculated or not) match or not. This works under the following two conditions:
@@ -51,13 +53,13 @@ You can also use the verification feature in both the main command-line shell an
 * If the verification part concludes that the two hashes match, your file is fine.
 * If the verification part concludes that the two hashes don't match, your file is tampered with.
 
-### <mark style="color:$primary;">Usage</mark>
+#### <mark style="color:$primary;">Usage</mark>
 
 The following commands are available for you to try out:
 
 <table><thead><tr><th width="119.66668701171875">Command</th><th>Description</th></tr></thead><tbody><tr><td><code>verify</code></td><td>Allows you to verify your file or your hash</td></tr></tbody></table>
 
-### <mark style="color:$primary;">Tools</mark>
+#### <mark style="color:$primary;">Tools</mark>
 
 In the `HashVerifier` class found in the `Nitrocid.Drivers.Encryption` namespace, you can access the verifier tools to give your mods ability to use the current encryption driver to verify the hash sum of your files and your texts.
 

@@ -1,6 +1,10 @@
 ---
 description: Do you want to edit text?
 icon: pencil
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/editors
 ---
 
 # Editors

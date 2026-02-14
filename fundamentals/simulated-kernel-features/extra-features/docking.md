@@ -1,6 +1,10 @@
 ---
 description: You can now dock your screen!
 icon: image
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/docking
 ---
 
 # Docking

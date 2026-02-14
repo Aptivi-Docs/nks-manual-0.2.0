@@ -1,6 +1,10 @@
 ---
 description: What are the Kernel Modifications?
 icon: toolbox
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications
 ---
 
 # Kernel Modifications
@@ -53,4 +57,4 @@ This is a known limitation. You can find more information from the below links:
 
 For more information about the kernel modification system, consult one of the below pages:
 
-<table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td align="center"><h3><a href="kernel-modification-management/"><mark style="color:$primary;"><strong>Management</strong></mark></a></h3></td><td align="center">Deep explanation of the kernel modification management can be found here.</td><td><a href="../../.gitbook/assets/1000069367.png">1000069367.png</a></td></tr><tr><td align="center"><h3><a href="analyzer-diagnostics/"><mark style="color:$primary;"><strong>Analyzers</strong></mark></a></h3></td><td align="center">You can use the mod analyzers that tell you about the best practices.</td><td><a href="../../.gitbook/assets/1000069367.png">1000069367.png</a></td></tr><tr><td align="center"><h3><a href="your-mod.md"><mark style="color:$primary;"><strong>Building</strong></mark></a></h3></td><td align="center">If you'd like to build your own modifications, that's great!</td><td><a href="../../.gitbook/assets/1000069367.png">1000069367.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th align="center"></th><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td align="center"><h4><a href="kernel-modification-management/"><mark style="color:$primary;"><strong>Management</strong></mark></a></h4></td><td align="center">Deep explanation of the kernel modification management can be found here.</td><td><a href="../../.gitbook/assets/1000069367.png">1000069367.png</a></td></tr><tr><td align="center"><h4><a href="analyzer-diagnostics/"><mark style="color:$primary;"><strong>Analyzers</strong></mark></a></h4></td><td align="center">You can use the mod analyzers that tell you about the best practices.</td><td><a href="../../.gitbook/assets/1000069367.png">1000069367.png</a></td></tr><tr><td align="center"><h4><a href="your-mod.md"><mark style="color:$primary;"><strong>Building</strong></mark></a></h4></td><td align="center">If you'd like to build your own modifications, that's great!</td><td><a href="../../.gitbook/assets/1000069367.png">1000069367.png</a></td></tr></tbody></table>

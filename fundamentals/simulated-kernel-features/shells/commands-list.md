@@ -1,6 +1,10 @@
 ---
 description: List of available commands
 icon: square-code
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/shells/commands-list
 ---
 
 # Commands List

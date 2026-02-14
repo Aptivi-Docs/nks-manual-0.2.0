@@ -1,6 +1,10 @@
 ---
 description: Your random number generator is here! Let's see if you're lucky.
 icon: slot-machine
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/random-number-generation
 ---
 
 # Random Number Generation

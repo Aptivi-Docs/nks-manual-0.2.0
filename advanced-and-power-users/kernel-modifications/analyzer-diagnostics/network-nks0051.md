@@ -1,6 +1,10 @@
 ---
 description: Use NetworkTools.NetworkAvailable
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/network-nks0051
 ---
 
 # Network - NKS0051

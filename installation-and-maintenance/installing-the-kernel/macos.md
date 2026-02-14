@@ -1,6 +1,10 @@
 ---
 description: How to install Nitrocid KS on macOS
 icon: apple
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/installation-and-maintenance/installing-the-kernel/macos
 ---
 
 # macOS
@@ -25,31 +29,31 @@ There is one way to install Nitrocid KS on macOS systems. Follow these steps to 
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Check your dependencies</mark>
+#### <mark style="color:$primary;">Check your dependencies</mark>
 
 Ensure that you have all the required software installed
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Download the latest ZIP</mark>
+#### <mark style="color:$primary;">Download the latest ZIP</mark>
 
 Download the latest release ZIP file from [this page](https://github.com/Aptivi/Kernel-Simulator/releases).
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Extract the archive</mark>
+#### <mark style="color:$primary;">Extract the archive</mark>
 
 Unpack the ZIP archive to any folder of your choice
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Open the terminal emulator</mark>
+#### <mark style="color:$primary;">Open the terminal emulator</mark>
 
 Open your favorite terminal emulator, like iTerm2, and change the working directory to a folder containing the Nitrocid KS executable
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Execute Nitrocid on your terminal</mark>
+#### <mark style="color:$primary;">Execute Nitrocid on your terminal</mark>
 
 Execute `dotnet Nitrocid.dll` to start the kernel
 {% endstep %}
@@ -63,25 +67,25 @@ The only way to upgrade Nitrocid in macOS is to unpack the updated files manuall
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Download the latest ZIP</mark>
+#### <mark style="color:$primary;">Download the latest ZIP</mark>
 
 Download the latest release ZIP file from [this page](https://github.com/Aptivi/Kernel-Simulator/releases).
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Extract the archive</mark>
+#### <mark style="color:$primary;">Extract the archive</mark>
 
 Unpack the ZIP archive to any folder of your choice
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Open the terminal emulator</mark>
+#### <mark style="color:$primary;">Open the terminal emulator</mark>
 
 Open your favorite terminal emulator, like iTerm2, and change the working directory to a folder containing the Nitrocid KS executable
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Execute Nitrocid on your terminal</mark>
+#### <mark style="color:$primary;">Execute Nitrocid on your terminal</mark>
 
 Execute `dotnet Nitrocid.dll` to start the kernel
 {% endstep %}

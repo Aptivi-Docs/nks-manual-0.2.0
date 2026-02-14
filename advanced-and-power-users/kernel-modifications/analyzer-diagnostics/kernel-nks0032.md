@@ -1,6 +1,10 @@
 ---
 description: Use TimeDateRenderersUtc.RenderDateUtc()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/kernel-nks0032
 ---
 
 # Kernel - NKS0032

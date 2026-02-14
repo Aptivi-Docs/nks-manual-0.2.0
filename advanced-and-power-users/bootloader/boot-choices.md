@@ -1,6 +1,10 @@
 ---
 description: Choose where to go.
 icon: hand-back-point-up
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/bootloader/boot-choices
 ---
 
 # Boot Choices

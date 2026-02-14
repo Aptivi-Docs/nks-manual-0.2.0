@@ -1,6 +1,10 @@
 ---
 description: Let's build it!
 icon: trowel-bricks
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/building-the-kernel
 ---
 
 # Building the Kernel

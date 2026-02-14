@@ -1,6 +1,10 @@
 ---
 description: Make your own custom boot style!
 icon: boot-heeled
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/bootloader/custom-boot-styles
 ---
 
 # Custom Boot Styles
@@ -15,7 +19,7 @@ To implement your custom boot style, these steps must be followed:
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Create a boot style class</mark>
+#### <mark style="color:$primary;">Create a boot style class</mark>
 
 Assuming that you have your mod's source code, create a class and name it after your boot style that you want.
 
@@ -23,7 +27,7 @@ Afterwards, write next to the class file `: BaseBootStyle, IBootStyle` and impor
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Override the necessary methods</mark>
+#### <mark style="color:$primary;">Override the necessary methods</mark>
 
 Override the necessary methods using the `override` keyword for each one as appropriate.
 
@@ -35,13 +39,13 @@ Override the necessary methods using the `override` keyword for each one as appr
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Implement your environment</mark>
+#### <mark style="color:$primary;">Implement your environment</mark>
 
 Now, implement everything as you wish. Once you're done, add necessary functions in the mod initialization phase to add your own custom boot style.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Build and install your mod</mark>
+#### <mark style="color:$primary;">Build and install your mod</mark>
 
 Click on the Build menu and select Build Solution. Then, repeat the steps to install your mod as highlighted in [this page](../kernel-modifications/#building).
 {% endstep %}

@@ -1,6 +1,10 @@
 ---
 description: Use Removing.RemoveDirectory()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/files-nks0017
 ---
 
 # Files - NKS0017

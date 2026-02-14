@@ -1,6 +1,10 @@
 ---
 description: Each of the settings contain their own format
 icon: screwdriver
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/kernel-settings/settings-format
 ---
 
 # Settings Format
@@ -94,7 +98,7 @@ Only the types that require additional configuration are listed below. The below
 
 This type is a selection from the list of the values that a function or an enumeration returns.
 
-#### <mark style="color:$primary;">Case 1: (</mark><mark style="color:$primary;">`IsEnumeration`</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">is</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">`false`</mark><mark style="color:$primary;">)</mark>
+<mark style="color:$primary;">**Case 1: (**</mark><mark style="color:$primary;">**`IsEnumeration`**</mark> <mark style="color:$primary;">**is**</mark> <mark style="color:$primary;">**`false`**</mark><mark style="color:$primary;">**)**</mark>
 
 The format is as below:
 
@@ -125,7 +129,7 @@ If the target listing is not an enumeration, the list can be obtained using a fu
 In the `SelectionFunctionArgs` value, please make sure that you pass the correct number of parameters in their correct order and in their correct types.
 {% endhint %}
 
-#### <mark style="color:$primary;">Case 2: (</mark><mark style="color:$primary;">`IsEnumeration`</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">is</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">`true`</mark><mark style="color:$primary;">)</mark>
+<mark style="color:$primary;">**Case 2: (**</mark><mark style="color:$primary;">**`IsEnumeration`**</mark> <mark style="color:$primary;">**is**</mark> <mark style="color:$primary;">**`true`**</mark><mark style="color:$primary;">**)**</mark>
 
 The format is as below:
 
@@ -141,7 +145,7 @@ The format is as below:
 
 If the target listing is an enumeration, the list can be obtained immediately with a list of possible options that can be set here.
 
-<table><thead><tr><th width="209.33331298828125">Variable</th><th width="350">Description</th><th>Type</th></tr></thead><tbody><tr><td><code>EnumerationInternal</code></td><td>Specifies whether the enumeration is found within the kernel or within an external assembly.</td><td><strong>boolean</strong></td></tr><tr><td><code>Enumeration</code></td><td><p>The fully qualified name of the enumeration, including the whole namespace.</p><p></p><p>If internal, <code>Nitrocid.</code> can be omitted.</p><p></p><p>Enumerations inside the static classes must be appended with the plus sign, for example, <code>ConsoleBase.Inputs.Styles.ChoiceStyle+ChoiceOutputType</code>.</p></td><td><strong>string</strong></td></tr><tr><td><code>EnumerationAssembly</code></td><td>An assembly name containing the enumeration. It can be omitted if enumeration is internal.</td><td><strong>string</strong></td></tr><tr><td><code>EnumerationZeroBased</code></td><td>If the enumeration is zero-based, then true. Otherwise, the enumeration is assumed to start from one.</td><td><strong>boolean</strong></td></tr></tbody></table>
+<table><thead><tr><th width="209.33331298828125">Variable</th><th width="350">Description</th><th>Type</th></tr></thead><tbody><tr><td><code>EnumerationInternal</code></td><td>Specifies whether the enumeration is found within the kernel or within an external assembly.</td><td><strong>boolean</strong></td></tr><tr><td><code>Enumeration</code></td><td><p>The fully qualified name of the enumeration, including the whole namespace.</p><p>If internal, <code>Nitrocid.</code> can be omitted.</p><p>Enumerations inside the static classes must be appended with the plus sign, for example, <code>ConsoleBase.Inputs.Styles.ChoiceStyle+ChoiceOutputType</code>.</p></td><td><strong>string</strong></td></tr><tr><td><code>EnumerationAssembly</code></td><td>An assembly name containing the enumeration. It can be omitted if enumeration is internal.</td><td><strong>string</strong></td></tr><tr><td><code>EnumerationZeroBased</code></td><td>If the enumeration is zero-based, then true. Otherwise, the enumeration is assumed to start from one.</td><td><strong>boolean</strong></td></tr></tbody></table>
 
 </details>
 
@@ -151,7 +155,7 @@ If the target listing is an enumeration, the list can be obtained immediately wi
 
 This type allows lists to be made in kernel settings. It contains list of configured values.
 
-#### <mark style="color:$primary;">Case 1 (dynamic delimiter)</mark>
+<mark style="color:$primary;">**Case 1 (dynamic delimiter)**</mark>
 
 The format is as below:
 
@@ -167,7 +171,7 @@ The target list is always a parameterless function that always returns a list th
 
 <table><thead><tr><th width="209.33331298828125">Variable</th><th width="350">Description</th><th>Type</th></tr></thead><tbody><tr><td><code>SelectionFunctionName</code></td><td>The function within the below specified type that returns the list. It must contain no arguments.</td><td><strong>string</strong></td></tr><tr><td><code>SelectionFunctionType</code></td><td>The type containing the function above.</td><td><strong>string</strong></td></tr><tr><td><code>DelimiterVariable</code></td><td>The variable containing the delimiter character.</td><td><strong>string</strong></td></tr><tr><td><code>DelimiterVariableType</code></td><td>The type containing the delimiter variable name (must be a fully-qualified type name)</td><td><strong>string</strong></td></tr></tbody></table>
 
-#### <mark style="color:$primary;">Case 2 (hardcoded delimiter)</mark>
+<mark style="color:$primary;">**Case 2 (hardcoded delimiter)**</mark>
 
 The format is as below:
 
@@ -191,7 +195,7 @@ The target list is always a parameterless function that always returns a list th
 
 This type is a shell preset that is treated as a string in the kernel configuration file, but it's actually set by the shell preset manager.
 
-#### <mark style="color:$primary;">General case</mark>
+<mark style="color:$primary;">**General case**</mark>
 
 The format is as below:
 
@@ -215,7 +219,7 @@ This type is for integer values which are limited. They're surrounded between th
 
 <p align="center"><span class="math">N_{min} &#x3C; x &#x3C; N_{max}</span></p>
 
-#### General case
+**General case**
 
 The format is as below:
 
@@ -272,7 +276,7 @@ There are other configuration types that different parts of Nitrocid uses, such 
 
 The kernel makes a user configuration entry for each new user created either by the `adduser` command or by the call of the `UserManagement.InitializeUser()` function in the `Nitrocid.Users` namespace under the name of `Users.json` found in the kernel configuration directory.
 
-### <mark style="color:$primary;">Format</mark>
+#### <mark style="color:$primary;">Format</mark>
 
 The format of the file looks like this:
 
@@ -296,7 +300,7 @@ The format of the file looks like this:
 ]
 ```
 
-### <mark style="color:$primary;">Explanation</mark>
+#### <mark style="color:$primary;">Explanation</mark>
 
 Let's explain each key one by one:
 
@@ -316,7 +320,7 @@ The type of `Flags` is an **integer** that can be a sum of the following flags:
 
 The kernel also supports user groups created either by the `addgroup` command or by the call of the `GroupManagement.AddGroup()` function in the `Nitrocid.Users.Groups` namespace under the name of `UserGroups.json` found in the kernel configuration directory.
 
-### <mark style="color:$primary;">Format</mark>
+#### <mark style="color:$primary;">Format</mark>
 
 The format of the file looks like this:
 
@@ -329,7 +333,7 @@ The format of the file looks like this:
 ]
 ```
 
-### <mark style="color:$primary;">Explanation</mark>
+#### <mark style="color:$primary;">Explanation</mark>
 
 Let's explain each key one by one:
 
@@ -343,7 +347,7 @@ Let's explain each key one by one:
 
 The kernel makes an alias configuration entry for each new alias created either by the `alias` command or by the call of the `AliasManager.ManageAlias()` function in the `Nitrocid.Shell.ShellBase.Aliases` namespace under the name of `Aliases.json` found in the kernel configuration directory.
 
-### <mark style="color:$primary;">Format</mark>
+#### <mark style="color:$primary;">Format</mark>
 
 The format of the file looks like this:
 
@@ -357,7 +361,7 @@ The format of the file looks like this:
 ]
 ```
 
-### <mark style="color:$primary;">Explanation</mark>
+#### <mark style="color:$primary;">Explanation</mark>
 
 Let's explain each key one by one:
 
@@ -371,7 +375,7 @@ Let's explain each key one by one:
 
 The kernel makes a debug device configuration entry for each new device connected to the remote debugger under the name of `DebugDevicesNames.json` found in the kernel configuration directory.
 
-### <mark style="color:$primary;">Format</mark>
+#### <mark style="color:$primary;">Format</mark>
 
 The format of the file looks like this:
 
@@ -387,7 +391,7 @@ The format of the file looks like this:
 ]
 ```
 
-### <mark style="color:$primary;">Explanation</mark>
+#### <mark style="color:$primary;">Explanation</mark>
 
 Let's explain each key one by one:
 
@@ -401,7 +405,7 @@ Let's explain each key one by one:
 
 The kernel makes an event file for each event made in the `KSEvents` folder by `calendar event saveall`.
 
-### <mark style="color:$primary;">Format</mark>
+#### <mark style="color:$primary;">Format</mark>
 
 The format of the file looks like this:
 
@@ -418,7 +422,7 @@ The format of the file looks like this:
 }
 ```
 
-### <mark style="color:$primary;">Explanation</mark>
+#### <mark style="color:$primary;">Explanation</mark>
 
 Let's explain each key one by one:
 
@@ -432,7 +436,7 @@ Let's explain each key one by one:
 
 The kernel makes a reminder file for each reminder made in the `KSReminders` folder by `calendar reminder saveall`.
 
-### <mark style="color:$primary;">Format</mark>
+#### <mark style="color:$primary;">Format</mark>
 
 The format of the file looks like this:
 
@@ -444,7 +448,7 @@ The format of the file looks like this:
 }
 ```
 
-### <mark style="color:$primary;">Explanation</mark>
+#### <mark style="color:$primary;">Explanation</mark>
 
 Let's explain each key one by one:
 

@@ -1,6 +1,10 @@
 ---
 description: Use SetConsoleColor(Color) from KernelColorTools
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/consolebase-nks0004
 ---
 
 # ConsoleBase - NKS0004

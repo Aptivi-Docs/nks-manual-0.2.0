@@ -1,6 +1,10 @@
 ---
 description: Eliminate the aliens
 icon: alien-8bit
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/invaders
 ---
 
 # Invaders
@@ -15,4 +19,4 @@ Invaders is an attempt to simulate the original Space Invaders game with just th
 
 Below controls are supported:
 
-<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Left Arrow</code></td><td>Moves the spaceship left</td></tr><tr><td><code>Right Arrow</code></td><td>Moves the spaceship right</td></tr><tr><td><code>Space</code> </td><td>Shoots</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>
+<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Left Arrow</code></td><td>Moves the spaceship left</td></tr><tr><td><code>Right Arrow</code></td><td>Moves the spaceship right</td></tr><tr><td><code>Space</code></td><td>Shoots</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>

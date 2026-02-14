@@ -1,6 +1,10 @@
 ---
 description: You can add your own custom settings, too!
 icon: sliders
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/kernel-settings/custom-settings
 ---
 
 # Custom Settings
@@ -23,7 +27,7 @@ Here's how you can define the custom settings.
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Make a custom settings class</mark>
+#### <mark style="color:$primary;">Make a custom settings class</mark>
 
 The first thing that your custom kernel settings requires is that you need to have a class (for example, let's assume that your custom settings class name is `OxygenSettings`) that is derived from both the `BaseKernelConfig` class and the `IKernelConfig` interface.
 
@@ -38,7 +42,7 @@ internal class OxygenSettings : BaseKernelConfig, IKernelConfig
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Override the settings entries property</mark>
+#### <mark style="color:$primary;">Override the settings entries property</mark>
 
 This class **must** override the `SettingsEntries` property from the base class so that it can understand your custom settings entries and how they're defined.
 
@@ -174,7 +178,7 @@ You don't have to save a copy of your `customSettings` variable, since it gets a
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Register your configuration class</mark>
+#### <mark style="color:$primary;">Register your configuration class</mark>
 
 After that, you must register your configuration class by just two lines somewhere in your mod initialization code:
 

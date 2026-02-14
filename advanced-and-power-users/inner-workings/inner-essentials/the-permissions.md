@@ -1,6 +1,10 @@
 ---
 description: How do the permissions work?
 icon: key
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/the-permissions
 ---
 
 # The Permissions

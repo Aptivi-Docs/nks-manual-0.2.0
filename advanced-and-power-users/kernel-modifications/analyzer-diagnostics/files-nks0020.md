@@ -1,6 +1,10 @@
 ---
 description: Use Checking.Exists()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/files-nks0020
 ---
 
 # Files - NKS0020

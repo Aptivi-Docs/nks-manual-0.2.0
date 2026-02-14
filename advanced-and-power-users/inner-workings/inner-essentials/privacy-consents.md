@@ -1,6 +1,10 @@
 ---
 description: Do you want an app to access your files?
 icon: user-lock
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/privacy-consents
 ---
 
 # Privacy Consents

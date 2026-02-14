@@ -1,6 +1,10 @@
 ---
 description: Group of users are here
 icon: people-group
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/accounts/groups
 ---
 
 # Groups

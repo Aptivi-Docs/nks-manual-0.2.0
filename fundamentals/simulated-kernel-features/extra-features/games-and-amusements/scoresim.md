@@ -1,11 +1,15 @@
 ---
 description: Score simulation for sports games
 icon: goal-net
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/scoresim
 ---
 
 # ScoreSim
 
-<figure><img src="../../../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (206) (1).png" alt=""><figcaption></figcaption></figure>
 
 ScoreSim is actually a helper application for showing just the scores for the two teams in a sports game. Whether it's a standard game (freeform), soccer, or basketball, this allows you to track the scores.
 

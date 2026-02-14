@@ -1,6 +1,10 @@
 ---
 description: Make your HTTP requests
 icon: globe
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking/http-client
 ---
 
 # HTTP Client
@@ -23,13 +27,13 @@ To be able to use the below commands that are listed in the below section, you h
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Open the shell</mark>
+#### <mark style="color:$primary;">Open the shell</mark>
 
 Open the HTTP shell by invoking the `http` command
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Set the site</mark>
+#### <mark style="color:$primary;">Set the site</mark>
 
 Use the `setsite` command to point to the target host that hosts the HTTP server
 
@@ -37,7 +41,7 @@ Use the `setsite` command to point to the target host that hosts the HTTP server
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Execute a request command</mark>
+#### <mark style="color:$primary;">Execute a request command</mark>
 
 Now, execute any of the below request commands to interact with the server
 {% endstep %}

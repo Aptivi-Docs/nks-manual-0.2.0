@@ -1,6 +1,10 @@
 ---
 description: Is this Cookie Clicker?
 icon: cookie-bite
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/clicker
 ---
 
 # Clicker

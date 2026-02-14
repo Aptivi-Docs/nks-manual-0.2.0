@@ -1,6 +1,10 @@
 ---
 description: Canvas internals are here.
 icon: presentation-screen
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/widget-canvas-internals
 ---
 
 # Widget Canvas Internals
@@ -71,13 +75,13 @@ Any mod can render a widget canvas, with the JSON information that satisfies the
 
 The only required options are `widgetName`, which chooses a widget to render, `left`, for the left position that is zero-based, and `top`, for the top position that is zero-based.
 
-### <mark style="color:$primary;">Optional properties</mark>
+#### <mark style="color:$primary;">Optional properties</mark>
 
 The rest of the properties are defined as follows:
 
 <table><thead><tr><th width="120.333251953125">Property</th><th>Description</th></tr></thead><tbody><tr><td><code>bordered</code></td><td>Whether to draw a border around the widget or not.</td></tr><tr><td><code>relative</code></td><td>Whether to use relative widths and heights or not.</td></tr><tr><td><code>options</code></td><td>Specifies the options for the widgets.</td></tr></tbody></table>
 
-### <mark style="color:$primary;">Relative widths and heights</mark>
+#### <mark style="color:$primary;">Relative widths and heights</mark>
 
 If the relative widths and heights are turned on, the following options apply:
 
@@ -87,7 +91,7 @@ Else, the following options apply:
 
 <table><thead><tr><th width="180.333251953125">Property</th><th>Description</th></tr></thead><tbody><tr><td><code>width</code></td><td>Width of the widget.</td></tr><tr><td><code>height</code></td><td>Height of the widget.</td></tr></tbody></table>
 
-### <mark style="color:$primary;">Widget-specific options</mark>
+#### <mark style="color:$primary;">Widget-specific options</mark>
 
 Some widgets, especially those that support customization options, provide their own options. The following options are available:
 

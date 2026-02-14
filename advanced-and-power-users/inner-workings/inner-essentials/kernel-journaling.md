@@ -1,6 +1,10 @@
 ---
 description: Let's keep the journals here.
 icon: notebook
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-journaling
 ---
 
 # Kernel Journaling

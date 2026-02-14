@@ -1,6 +1,10 @@
 ---
 description: Debugging the kernel on LAN
 icon: satellite-dish
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/diagnostics/debugging/remote-debugging
 ---
 
 # Remote Debugging

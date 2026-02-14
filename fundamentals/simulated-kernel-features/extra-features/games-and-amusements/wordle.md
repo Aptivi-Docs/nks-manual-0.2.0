@@ -1,6 +1,10 @@
 ---
 description: Master your words!
 icon: square-w
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/wordle
 ---
 
 # Wordle
@@ -27,4 +31,4 @@ If you guessed all the characters right, you win the game. If you guessed the wo
 
 Below controls are supported:
 
-<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Any key</code> </td><td>Submits a character</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>
+<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Any key</code></td><td>Submits a character</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>

@@ -1,6 +1,10 @@
 ---
 description: Do you pick the right horse to win?
 icon: horse
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/backrace
 ---
 
 # BackRace

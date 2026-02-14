@@ -1,6 +1,10 @@
 ---
 description: How do the kernel arguments work? And how do they affect the kernel?
 icon: square-sliders
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-arguments
 ---
 
 # Kernel Arguments

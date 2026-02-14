@@ -1,6 +1,10 @@
 ---
 description: Build the simulator on Windows!
 icon: windows
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/building-the-kernel/building-on-windows
 ---
 
 # Building on Windows
@@ -22,13 +26,13 @@ Once you have Visual Studio installed with at least the .NET 10.0 SDK and the .N
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Open Visual Studio</mark>
+#### <mark style="color:$primary;">Open Visual Studio</mark>
 
 Open Visual Studio and press `Clone Repository`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Write the repository location</mark>
+#### <mark style="color:$primary;">Write the repository location</mark>
 
 In the repository location field, write `https://github.com/Aptivi/Nitrocid.git`
 
@@ -36,13 +40,13 @@ In the repository location field, write `https://github.com/Aptivi/Nitrocid.git`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Clone the repository</mark>
+#### <mark style="color:$primary;">Clone the repository</mark>
 
 Press `Clone`. The clone may need to take a few minutes depending on your Internet connection.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Open Nitrocid's solution</mark>
+#### <mark style="color:$primary;">Open Nitrocid's solution</mark>
 
 Press `Solution Explorer` » `Switch Views` and double click on `Nitrocid.slnx`
 
@@ -50,7 +54,7 @@ Press `Solution Explorer` » `Switch Views` and double click on `Nitrocid.slnx`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Build the solution</mark>
+#### <mark style="color:$primary;">Build the solution</mark>
 
 Press `F6` on your keyboard, or press `Build` » `Build Solution` to build
 
@@ -58,7 +62,7 @@ Press `F6` on your keyboard, or press `Build` » `Build Solution` to build
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Execute Nitrocid</mark>
+#### <mark style="color:$primary;">Execute Nitrocid</mark>
 
 Navigate to the build output folder, `KSBuild`, and double click on the `Nitrocid.exe` file
 
@@ -74,25 +78,25 @@ If you are a hardcore command-line user or if you prefer using the command-line,
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Open Git Bash</mark>
+#### <mark style="color:$primary;">Open Git Bash</mark>
 
 Open `Git Bash` on your work directory
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Clone the repository</mark>
+#### <mark style="color:$primary;">Clone the repository</mark>
 
 Execute `git clone https://github.com/Aptivi/Nitrocid.git`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Build the repository</mark>
+#### <mark style="color:$primary;">Build the repository</mark>
 
-Navigate to the cloned repository, `Nitrocid`, then execute `dotnet restore` and `dotnet build`&#x20;
+Navigate to the cloned repository, `Nitrocid`, then execute `dotnet restore` and `dotnet build`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Run the project</mark>
+#### <mark style="color:$primary;">Run the project</mark>
 
 After building is done, run `dotnet run`
 {% endstep %}

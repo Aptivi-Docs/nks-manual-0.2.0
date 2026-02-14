@@ -1,11 +1,11 @@
 ---
 description: Giving your kernel even more ink of paint!
-icon: fill-drip
+icon: newspaper
 ---
 
-# v0.2.0.x series
+# Release notes
 
-<figure><img src="../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (186) (1).png" alt=""><figcaption></figcaption></figure>
 
 This kernel version series gives your kernel a bit of a makeover in several aspects, especially the API that got massively changed in terms of console rendering, again. It is built on API v4.0, which means that mods that depend on API v3.1 or lower won't work with this version or higher.
 

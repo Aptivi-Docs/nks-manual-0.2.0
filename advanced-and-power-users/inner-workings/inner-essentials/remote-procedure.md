@@ -1,6 +1,10 @@
 ---
 description: How remote procedure works
 icon: satellite
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/remote-procedure
 ---
 
 # Remote Procedure

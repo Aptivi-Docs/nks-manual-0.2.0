@@ -1,6 +1,10 @@
 ---
 description: Date and time tools
 icon: clock-three
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/date-and-time
 ---
 
 # Date and Time
@@ -112,7 +116,7 @@ When it comes to alarms, they are useful to alarm you for something at a specifi
 public static class AlarmTools { }
 ```
 
-### <mark style="color:$primary;">Starting an alarm</mark>
+#### <mark style="color:$primary;">Starting an alarm</mark>
 
 You can start an alarm using the `StartAlarm()` function that lets you specify your alarm ID, your alarm name, and your alarm interval in seconds.
 
@@ -120,7 +124,7 @@ You can start an alarm using the `StartAlarm()` function that lets you specify y
 public static void StartAlarm(string alarmId, string alarmName, int alarmValue) { }
 ```
 
-### <mark style="color:$primary;">Stopping an alarm</mark>
+#### <mark style="color:$primary;">Stopping an alarm</mark>
 
 Additionally, you can stop an alarm before it's up using a function defined below:
 

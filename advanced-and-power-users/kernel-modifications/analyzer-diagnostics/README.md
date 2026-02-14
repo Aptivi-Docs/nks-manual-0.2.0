@@ -1,6 +1,10 @@
 ---
 description: Here's a list of analyzer diagnostics.
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics
 ---
 
 # Analyzing your Mod

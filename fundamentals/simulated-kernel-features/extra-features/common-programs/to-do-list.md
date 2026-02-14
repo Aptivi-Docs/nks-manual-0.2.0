@@ -1,6 +1,10 @@
 ---
 description: Your checkbook
 icon: clipboard-list-check
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/to-do-list
 ---
 
 # To-do List

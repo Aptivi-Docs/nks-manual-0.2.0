@@ -1,6 +1,10 @@
 ---
 description: What are widget canvases, anyway?
 icon: presentation-screen
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/widgets/widget-canvas
 ---
 
 # Widget Canvas

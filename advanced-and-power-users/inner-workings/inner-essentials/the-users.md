@@ -1,6 +1,10 @@
 ---
 description: This page describes the internal workings of the username management
 icon: users
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/the-users
 ---
 
 # The Users
@@ -36,7 +40,7 @@ Trying to run any of the four functions above results in a `KernelException` if 
 
 ## <mark style="color:$primary;">Login handlers</mark>
 
-<figure><img src="../../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (187) (1).png" alt=""><figcaption></figcaption></figure>
 
 Login handlers are login interfaces in which Nitrocid summons in order to commence a login process, just after all the necessary components of the kernel have finished loading.
 

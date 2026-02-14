@@ -1,6 +1,10 @@
 ---
 description: Multilingual Kernel!
 icon: language
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/languages
 ---
 
 # Localization
@@ -59,7 +63,7 @@ If you don't want to use the Settings TUI, you can also do it using the command-
 Note that your account must have either the administrative permissions enabled or the settings management permission granted to be able to use this command.
 {% endhint %}
 
-### <mark style="color:$primary;">Changing the language</mark>
+#### <mark style="color:$primary;">Changing the language</mark>
 
 To change the simulated kernel language using the command-line, follow these steps:
 
@@ -68,7 +72,7 @@ To change the simulated kernel language using the command-line, follow these ste
    1. To set the language for your user, you can use the `-user` flag.
 3. Log-out and log in again.
 
-### <mark style="color:$primary;">Changing the culture</mark>
+#### <mark style="color:$primary;">Changing the culture</mark>
 
 To change the simulated kernel culture using the command-line, follow these steps:
 

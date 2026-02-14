@@ -1,6 +1,10 @@
 ---
 description: Threading at its best!
 icon: phone
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-threads
 ---
 
 # Kernel Threads
@@ -56,11 +60,11 @@ A `KernelThread` has the following values:
 
 Child threads are the threads that run with the parent thread and follow the parent thread's lead to perform operations together.
 
-### <mark style="color:$primary;">Adding a child thread</mark>
+#### <mark style="color:$primary;">Adding a child thread</mark>
 
 In your thread, to add a child thread, you must call the `AddChild()` function regardless of whether said child thread takes parameters or not on the parent thread instance to make a new child thread and connect it to the parent thread.
 
-#### <mark style="color:$primary;">Example of adding child threads</mark>
+<mark style="color:$primary;">**Example of adding child threads**</mark>
 
 For example, to spawn three child threads from the parent thread, you must call the `AddChild()` function like this:
 
@@ -75,7 +79,7 @@ thread.Stop();
 
 Starting the parent thread will start all the child threads simultaneously, and stopping the parent thread will stop all the child threads at once.
 
-#### <mark style="color:$primary;">Example of adding extra child threads while running</mark>
+<mark style="color:$primary;">**Example of adding extra child threads while running**</mark>
 
 You can also add extra child threads to the parent thread that's already running using the same function. Example code is provided below:
 
@@ -137,7 +141,7 @@ Kernel threads can now delay operations by using one of the following `Sleep()` 
 
 <table><thead><tr><th width="300.3333740234375">Function</th><th>Description</th></tr></thead><tbody><tr><td><code>SleepUntilInput()</code></td><td>The thread suspends all operations until the input is detected.</td></tr><tr><td><code>SleepUntilInput(long)</code></td><td>The thread suspends all operations until either the input is detected or the timeout is reached.</td></tr><tr><td><code>SleepNoBlock(long)</code></td><td>Sleeps until either the time specified, or the current thread is no longer alive.</td></tr><tr><td><code>SleepNoBlock(long, Thread)</code></td><td>Sleeps until either the time specified, or the specified non-Nitrocid thread is no longer alive.</td></tr><tr><td><code>SleepNoBlock(long, KernelThread)</code></td><td>Sleeps until either the time specified, or the specified Nitrocid thread is no longer alive.</td></tr></tbody></table>
 
-#### <mark style="color:$primary;">Determining the precise sleep duration</mark>
+<mark style="color:$primary;">**Determining the precise sleep duration**</mark>
 
 The thread manager contains these functions designed to get the total elapsed ticks, milliseconds, or time span to sleep for a specified milliseconds:
 
@@ -181,7 +185,7 @@ The `F1` command to kill a selected thread can't be used to kill unmanaged OS th
 
 The selected thread information can be found on the right pane of your task manager. However, depending on the type of the thread you're currently at, it might show different information.
 
-#### <mark style="color:$primary;">Nitrocid KS threads</mark>
+<mark style="color:$primary;">**Nitrocid KS threads**</mark>
 
 The below information are shown:
 
@@ -193,7 +197,7 @@ The below information are shown:
 | `Critical`   | Threads that are crucial to the kernel is usually set to `True` and thus can't be killed. |
 | `Ready`      | Whether the thread is ready to be started or not.                                         |
 
-#### <mark style="color:$primary;">Unmanaged OS threads</mark>
+<mark style="color:$primary;">**Unmanaged OS threads**</mark>
 
 <figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 

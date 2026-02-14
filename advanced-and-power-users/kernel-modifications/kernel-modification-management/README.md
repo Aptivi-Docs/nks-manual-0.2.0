@@ -1,6 +1,10 @@
 ---
 description: This page describes how to manage your kernel mods
 icon: wrench
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/kernel-modification-management
 ---
 
 # Managing your Mod
@@ -17,19 +21,19 @@ The mod finalization phase gets executed as soon as the mod parser sees the file
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Verifies the script</mark>
+#### <mark style="color:$primary;">Verifies the script</mark>
 
 If it sees the script as an instance of `IMod`, it fires the `ModParsed` event
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Adds the path to the assembly lookup path list</mark>
+#### <mark style="color:$primary;">Adds the path to the assembly lookup path list</mark>
 
 Adds mod dependency path to the assembly lookup path (`KSMods/Deps/Mod-FileVersion/`)
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Checks the API version</mark>
+#### <mark style="color:$primary;">Checks the API version</mark>
 
 Checks the expected mod API minimum version with the kernel API version to see if there is a mismatch.
 
@@ -38,7 +42,7 @@ Checks the expected mod API minimum version with the kernel API version to see i
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Checks some more properties</mark>
+#### <mark style="color:$primary;">Checks some more properties</mark>
 
 Mod parsing fails if:
 
@@ -47,19 +51,19 @@ Mod parsing fails if:
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Satisfies the mod dependencies</mark>
+#### <mark style="color:$primary;">Satisfies the mod dependencies</mark>
 
 Satisfies the mod dependencies by loading them as appropriate.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Runs the startup function</mark>
+#### <mark style="color:$primary;">Runs the startup function</mark>
 
 Calls the `script.StartMod()` function in your script
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Adds the mod</mark>
+#### <mark style="color:$primary;">Adds the mod</mark>
 
 Adds the mod to the mod manager
 {% endstep %}
@@ -123,7 +127,7 @@ Important mods, including those that load splashes on boot, get loaded after the
 
 However, for optional mods, they get loaded late so they can load properly. This loading is done by scanning the `KSMods` directory and querying every `.DLL` file with `ParseMod()`.
 
-### <mark style="color:$primary;">Controlling the priority</mark>
+#### <mark style="color:$primary;">Controlling the priority</mark>
 
 You can control when your mod loads (early or late) by overriding the `AddonType` enumeration to point to one of the correct mod priorities, depending on your mod:
 

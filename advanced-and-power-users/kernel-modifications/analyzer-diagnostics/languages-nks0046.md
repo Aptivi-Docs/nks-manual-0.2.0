@@ -1,6 +1,10 @@
 ---
 description: Use CultureManager.UpdateCulture
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/languages-nks0046
 ---
 
 # Languages - NKS0046

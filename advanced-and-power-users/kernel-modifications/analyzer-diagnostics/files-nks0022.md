@@ -1,6 +1,10 @@
 ---
 description: Use Parsing.GetInvalidPathChars()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/files-nks0022
 ---
 
 # Files - NKS0022

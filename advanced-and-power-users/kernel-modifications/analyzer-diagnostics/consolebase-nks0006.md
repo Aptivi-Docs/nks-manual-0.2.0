@@ -1,6 +1,10 @@
 ---
 description: Use ReadLine() from InputTools
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/consolebase-nks0006
 ---
 
 # ConsoleBase - NKS0006

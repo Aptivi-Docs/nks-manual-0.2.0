@@ -3,6 +3,10 @@ description: >-
   Stopwatch for your favorite races, Pomodoro for task management, and timer to
   time yourself in some process
 icon: alarm-clock
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/stopwatch-and-timer
 ---
 
 # Timers
@@ -21,7 +25,7 @@ The timer counts down from the set time, usually minutes, to zero to set the tar
 
 The simulated kernel powers the timer feature that, by default, sets the remaining time to just one minute.
 
-### <mark style="color:$primary;">Usage</mark>
+#### <mark style="color:$primary;">Usage</mark>
 
 The controls are:
 
@@ -47,7 +51,7 @@ The most famous example of a stopwatch is the stop clock, which is used in sport
 
 The simulated kernel also simulates the stopwatch functionality with the ability to set the laps. You can also reset the stopwatch.
 
-### Usage
+#### Usage
 
 The controls are:
 
@@ -69,7 +73,7 @@ The pomodoro timer allows you to set a 20 to 50-minute work job for a long work,
 
 The Pomodoro timer is provided to you by the kernel addon to simplify the task of dividing time into break segments.
 
-### <mark style="color:$primary;">Usage</mark>
+#### <mark style="color:$primary;">Usage</mark>
 
 The controls are:
 

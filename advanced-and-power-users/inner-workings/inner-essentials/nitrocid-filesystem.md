@@ -1,6 +1,10 @@
 ---
 description: Let's go deeper into the filesystem functionality!
 icon: cabinet-filing
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/nitrocid-filesystem
 ---
 
 # Nitrocid Filesystem
@@ -57,13 +61,13 @@ Optionally, the functions also make use of the file and folder lock checking mec
 
 `FileSystemEntry` contains necessary information about your file or folder, like checking to see if it exists, determining the type of the entry, and so on.
 
-### <mark style="color:$primary;">Base entry properties</mark>
+#### <mark style="color:$primary;">Base entry properties</mark>
 
 These are the information currently available, but you can obtain more information using the `BaseEntry` property:
 
 <table><thead><tr><th width="199.66668701171875">Property</th><th>Description</th></tr></thead><tbody><tr><td><code>Exists</code></td><td>Checks to see if the file or directory exists.</td></tr><tr><td><code>Type</code></td><td>The type of the filesystem entry. This is only populated once.</td></tr><tr><td><code>OriginalFilePath</code></td><td>The original file path that was passed to the constructor.</td></tr><tr><td><code>FilePath</code></td><td>The neutralized file path.</td></tr><tr><td><code>FileSize</code></td><td>The file size. This property's value is <code>-1</code> if the entry is a directory or non-existent.</td></tr><tr><td><code>BaseEntryUnprocessed</code></td><td>The base entry from the unprocessed file path.</td></tr><tr><td><code>BaseEntry</code></td><td>The base entry from the neutralized file path.</td></tr></tbody></table>
 
-### <mark style="color:$primary;">Creating a new file system entry class instance</mark>
+#### <mark style="color:$primary;">Creating a new file system entry class instance</mark>
 
 You can create a new instance of this class, assuming that you've imported the `Nitrocid.Files.Instances` namespace, by simply calling the constructor like below:
 
@@ -83,13 +87,13 @@ You don't need to neutralize the path before making a new instance of this class
 
 The Nitrocid filesystem provides you with an option to open the files deterministically without opening the hex editor on binary files using the extension handlers. Currently, only the interactive file manager (IFM) uses this feature to open any file.
 
-### <mark style="color:$primary;">Properties of the handler</mark>
+#### <mark style="color:$primary;">Properties of the handler</mark>
 
 Handling extensions consists of a class, called `ExtensionHandler`, that contains information about how to open the file ending in a specific extension, and has the following properties:
 
 <table><thead><tr><th width="129">Property</th><th>Description</th></tr></thead><tbody><tr><td><code>Extension</code></td><td>File extension that is being handled</td></tr><tr><td><code>MimeType</code></td><td>MIME type of the extension</td></tr><tr><td><code>Implementer</code></td><td>The extension handler implementer name (can also be used as a codename for the handler)</td></tr><tr><td><code>Handler</code></td><td>A function to execute with the full path to the requested file as the first argument</td></tr><tr><td><code>InfoHandler</code></td><td>A function get information from a file and render said information to a string instance</td></tr></tbody></table>
 
-### <mark style="color:$primary;">Registering a custom handler</mark>
+#### <mark style="color:$primary;">Registering a custom handler</mark>
 
 You can register your custom handler using the `RegisterHandler()` function found in the `ExtensionHandlerTools` class. This way, next time IFM opens up a file with an extension that contains your handler, it will execute your own custom handler.
 
@@ -97,7 +101,7 @@ You can register your custom handler using the `RegisterHandler()` function foun
 ExtensionHandlerTools.RegisterHandler(".txt", "txthandler", (path) => Opening.OpenEditor(path, true), (path) => $"Lines: {File.ReadAllLines(path).Length}");
 ```
 
-### <mark style="color:$primary;">Triggering custom handler</mark>
+#### <mark style="color:$primary;">Triggering custom handler</mark>
 
 Additionally, any mod that uses `OpenDeterministically()` on a file will trigger your custom handlers.
 
@@ -110,7 +114,7 @@ ExtensionHandlerTools.UnregisterHandler(".txt", handler);
 ```
 {% endhint %}
 
-### <mark style="color:$primary;">Saving defaults</mark>
+#### <mark style="color:$primary;">Saving defaults</mark>
 
 For the list of default handlers, they get saved to the `ExtensionHandlers.json` file. These handlers get used everytime a request to `GetExtensionHandler(string extension)` function is made.
 
@@ -122,7 +126,7 @@ For the list of default handlers, they get saved to the `ExtensionHandlers.json`
 
 You can read from a file or write to a file using the Nitrocid API to get its contents or write your own content to a file. The file paths are always neutralized to your current working directory, unless you specify a rooted path (absolute path).
 
-### <mark style="color:$primary;">Writing to files</mark>
+#### <mark style="color:$primary;">Writing to files</mark>
 
 The following writing APIs are available:
 
@@ -134,7 +138,7 @@ The following writing APIs are available:
 | `WriteAllTextNoBlock()`  | Useful if you have a plain text and want a non-blocking write.     |
 | `WriteAllBytes()`        | Useful for writing binary files.                                   |
 
-### <mark style="color:$primary;">Reading from files</mark>
+#### <mark style="color:$primary;">Reading from files</mark>
 
 The following reading APIs are available:
 
@@ -209,7 +213,7 @@ The `Nitrocid.Files.Paths` namespace contains a group of functions that allow yo
 public static string GetKernelPath(KernelPathType PathType) { }
 ```
 
-### <mark style="color:$primary;">Registration of custom paths</mark>
+#### <mark style="color:$primary;">Registration of custom paths</mark>
 
 The custom paths can be registered and unregistered by using the functions that are outlined below:
 
@@ -220,7 +224,7 @@ public static void UnregisterKernelPath(string pathType) { }
 
 If you want to define your own custom path, you must register the kernel path with a file or folder that you choose. It's not necessarily a file or a folder that exists, since you may create it in your mod.
 
-### <mark style="color:$primary;">Usage of custom paths</mark>
+#### <mark style="color:$primary;">Usage of custom paths</mark>
 
 After the registration, you can use the `GetKernelPath()` function to give it a name of your registered path type.
 
@@ -236,11 +240,11 @@ public static string GetKernelPath(string PathType) { }
 
 Filesystem APIs in Nitrocid provide copying and moving files and/or directories.
 
-### <mark style="color:$primary;">Copying and moving modes</mark>
+#### <mark style="color:$primary;">Copying and moving modes</mark>
 
 The base filesystem driver implements three copying and moving modes.
 
-#### <mark style="color:$primary;">Copying and moving a source file to a destination</mark>
+<mark style="color:$primary;">**Copying and moving a source file to a destination**</mark>
 
 ```csharp
 // Copying
@@ -252,7 +256,7 @@ public static void MoveFile(string Source, string Destination) { }
 public static bool TryMoveFile(string Source, string Destination) { }
 ```
 
-#### <mark style="color:$primary;">Copying and moving a source directory to a destination</mark>
+<mark style="color:$primary;">**Copying and moving a source directory to a destination**</mark>
 
 ```csharp
 // Copying
@@ -268,7 +272,7 @@ public static bool TryMoveDirectory(string Source, string Destination) { }
 public static bool TryMoveDirectory(string Source, string Destination, bool ShowProgress) { }
 ```
 
-#### <mark style="color:$primary;">Copying and moving a source file or directory to a destination</mark>
+<mark style="color:$primary;">**Copying and moving a source file or directory to a destination**</mark>
 
 ```csharp
 // Copying
@@ -280,7 +284,7 @@ public static void MoveFileOrDir(string Source, string Destination) { }
 public static bool TryMoveFileOrDir(string Source, string Destination) { }
 ```
 
-### <mark style="color:$primary;">Operation</mark>
+#### <mark style="color:$primary;">Operation</mark>
 
 When copying or moving a file or directory, the functions first check for the source to check to see if it's a file, a directory, or both, depending on the function used. For example, if you're copying a directory to a destination, you can use either `CopyFileOrDir()` or `CopyDirectory()`, but not `CopyFile()`.
 

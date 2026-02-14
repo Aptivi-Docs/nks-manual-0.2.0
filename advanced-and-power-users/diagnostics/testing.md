@@ -1,6 +1,10 @@
 ---
 description: This page describes how to test the kernel with various features
 icon: vial
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/diagnostics/testing
 ---
 
 # Testing

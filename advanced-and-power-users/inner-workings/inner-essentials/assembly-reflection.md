@@ -1,6 +1,10 @@
 ---
 description: Reflecting things...
 icon: lock-keyhole
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/assembly-reflection
 ---
 
 # Assembly Reflection

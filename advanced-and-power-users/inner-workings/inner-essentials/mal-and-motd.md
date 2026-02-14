@@ -1,6 +1,10 @@
 ---
 description: Message of the Day before and after login
 icon: message
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/mal-and-motd
 ---
 
 # MAL and MOTD

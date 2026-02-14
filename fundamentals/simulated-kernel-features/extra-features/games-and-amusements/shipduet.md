@@ -1,6 +1,10 @@
 ---
 description: Two spaceships fight with each other. Who will survive?
 icon: ship
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/shipduet
 ---
 
 # ShipDuet
@@ -24,4 +28,4 @@ The game rules are:
 
 Below controls are supported:
 
-<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Up Arrow</code></td><td>Moves the spaceship up (Player 1, left)</td></tr><tr><td><code>Down Arrow</code></td><td>Moves the spaceship down (Player 1, left)</td></tr><tr><td><code>Enter</code> </td><td>Shoots (Player 1, left)</td></tr><tr><td><code>W</code></td><td>Moves the spaceship up (Player 2, right)</td></tr><tr><td><code>S</code></td><td>Moves the spaceship down (Player 2, right)</td></tr><tr><td><code>Space</code></td><td>Shoots (Player 2, right)</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>
+<table><thead><tr><th width="130">Keybinding</th><th>Description</th></tr></thead><tbody><tr><td><code>Up Arrow</code></td><td>Moves the spaceship up (Player 1, left)</td></tr><tr><td><code>Down Arrow</code></td><td>Moves the spaceship down (Player 1, left)</td></tr><tr><td><code>Enter</code></td><td>Shoots (Player 1, left)</td></tr><tr><td><code>W</code></td><td>Moves the spaceship up (Player 2, right)</td></tr><tr><td><code>S</code></td><td>Moves the spaceship down (Player 2, right)</td></tr><tr><td><code>Space</code></td><td>Shoots (Player 2, right)</td></tr><tr><td><code>ESC</code></td><td>Exits the game</td></tr></tbody></table>

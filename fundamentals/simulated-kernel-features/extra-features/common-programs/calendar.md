@@ -1,6 +1,10 @@
 ---
 description: Calendars, events, and reminders
 icon: calendar-days
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/calendar
 ---
 
 # Calendar

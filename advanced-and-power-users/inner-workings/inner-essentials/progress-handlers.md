@@ -1,6 +1,10 @@
 ---
 description: Please wait while we're processing your request...
 icon: hourglass-end
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/progress-handlers
 ---
 
 # Progress Handlers
@@ -75,7 +79,7 @@ public static void ReportProgress(double progress, string context, string messag
 
 Any call to one of these `ReportProgress()` functions with the correct context that is handled will follow it the progress indicator showing on your screen, or any other progress action, depending on how you're handling the progress.
 
-### <mark style="color:$primary;">Example</mark>
+#### <mark style="color:$primary;">Example</mark>
 
 This is the simplest method to report the progress, assuming that this is reported inside a long operation loop:
 

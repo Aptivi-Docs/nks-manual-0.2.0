@@ -1,6 +1,10 @@
 ---
 description: Mods talking to an addon or more than one addon in Nitrocid
 icon: phone
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/kernel-modification-management/inter-addon-communication
 ---
 
 # Inter-Addon Communication

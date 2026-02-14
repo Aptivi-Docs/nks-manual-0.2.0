@@ -1,6 +1,10 @@
 ---
 description: Your notifications are on your way!
 icon: bell
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/system-notifications
 ---
 
 # System Notifications

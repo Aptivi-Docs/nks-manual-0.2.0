@@ -1,6 +1,10 @@
 ---
 description: All of the colors!
 icon: swatchbook
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/color-internals
 ---
 
 # Color Internals
@@ -53,7 +57,7 @@ The commands provided by the color conversion addon help you convert from a colo
 
 <details>
 
-<summary><code>KernelColorConversionTools</code> class </summary>
+<summary><code>KernelColorConversionTools</code> class</summary>
 
 `KernelColorConversionTools` provides you all possible conversion methods to convert a color model to another color model to generate appropriate color specifiers converted to the target unit to create new `Color` instances for your mod's appearance.
 

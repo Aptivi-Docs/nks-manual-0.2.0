@@ -1,6 +1,10 @@
 ---
 description: How to install Nitrocid KS on Linux
 icon: linux
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/installation-and-maintenance/installing-the-kernel/linux
 ---
 
 # Linux

@@ -1,6 +1,10 @@
 ---
 description: Networking in general and its shells
 icon: globe-wifi
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/networking
 ---
 
 # Networking

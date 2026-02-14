@@ -1,6 +1,10 @@
 ---
 description: What loads your operating system?
 icon: compact-disc
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/bootloader
 ---
 
 # Bootloader

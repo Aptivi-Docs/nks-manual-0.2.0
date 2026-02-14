@@ -1,6 +1,10 @@
 ---
 description: List of available addon commands
 icon: square-code
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/shells/addon-commands-list
 ---
 
 # Addon Commands List
@@ -303,7 +307,7 @@ This shell allows you to send either a file or a string to one of the pastebin p
 
 You can use this shell to read your RSS feeds using the `rss` command. You can use the following commands from Nitrocid's UESH shell:
 
-<table><thead><tr><th width="130.66143798828125">Commands</th><th>Arguments and Switches</th></tr></thead><tbody><tr><td><code>rss</code></td><td><code>[-tui] &#x3C;feedlink></code> </td></tr></tbody></table>
+<table><thead><tr><th width="130.66143798828125">Commands</th><th>Arguments and Switches</th></tr></thead><tbody><tr><td><code>rss</code></td><td><code>[-tui] &#x3C;feedlink></code></td></tr></tbody></table>
 
 You can use the following commands in the RSS shell:
 
@@ -317,13 +321,11 @@ You can use the following commands in the RSS shell:
 
 SFTP shell allows you to interact with the SFTP servers. You can use the following commands from Nitrocid's UESH shell:
 
-<table><thead><tr><th width="129.9947509765625">Commands</th><th>Arguments and Switches</th></tr></thead><tbody><tr><td><code>sftp</code></td><td><code>[server]</code> </td></tr></tbody></table>
+<table><thead><tr><th width="129.9947509765625">Commands</th><th>Arguments and Switches</th></tr></thead><tbody><tr><td><code>sftp</code></td><td><code>[server]</code></td></tr></tbody></table>
 
 You can use the following commands in the SFTP shell:
 
 <table><thead><tr><th width="129.99481201171875">Commands</th><th>Arguments and Switches</th></tr></thead><tbody><tr><td><code>cat</code></td><td><code>&#x3C;file></code></td></tr><tr><td><code>cdl</code></td><td><code>&#x3C;dir></code></td></tr><tr><td><code>cdr</code></td><td><code>&#x3C;dir></code></td></tr><tr><td><code>del</code></td><td><code>&#x3C;file></code></td></tr><tr><td><code>detach</code></td><td></td></tr><tr><td><code>get</code></td><td><code>&#x3C;file></code></td></tr><tr><td><code>ifm</code></td><td></td></tr><tr><td><code>lsl</code></td><td><code>[-showdetails|-suppressmessages] [dir]</code></td></tr><tr><td><code>lsr</code></td><td><code>[-showdetails] [dir]</code></td></tr><tr><td><code>mkldir</code></td><td><code>&#x3C;directory></code></td></tr><tr><td><code>mkrdir</code></td><td><code>&#x3C;directory></code></td></tr><tr><td><code>put</code></td><td><code>&#x3C;file></code></td></tr><tr><td><code>pwdl</code></td><td></td></tr><tr><td><code>pwdr</code></td><td></td></tr></tbody></table>
-
-
 
 </details>
 

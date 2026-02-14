@@ -1,6 +1,10 @@
 ---
 description: Make your kernel more groovy!
 icon: volume
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/audio-cues
 ---
 
 # Audio Cues

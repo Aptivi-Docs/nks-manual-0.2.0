@@ -1,6 +1,10 @@
 ---
 description: Connecting to your computer remotely...
 icon: house-laptop
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking/ssh-connection
 ---
 
 # SSH Connection

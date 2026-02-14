@@ -1,6 +1,10 @@
 ---
 description: Screensavers and their usage
 icon: display
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/screensavers
 ---
 
 # Screensavers

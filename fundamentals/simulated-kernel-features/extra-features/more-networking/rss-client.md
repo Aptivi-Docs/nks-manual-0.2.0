@@ -1,6 +1,10 @@
 ---
 description: Handles all your RSS feeds
 icon: square-rss
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking/rss-client
 ---
 
 # RSS Client

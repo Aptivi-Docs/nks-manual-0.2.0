@@ -1,6 +1,10 @@
 ---
 description: The original pong game
 icon: table-tennis-paddle-ball
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/games-and-amusements/pong
 ---
 
 # Pong

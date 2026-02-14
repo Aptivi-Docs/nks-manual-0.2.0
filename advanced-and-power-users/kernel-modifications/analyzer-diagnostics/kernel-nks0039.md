@@ -1,6 +1,10 @@
 ---
 description: Use KernelPlatform.IsOnWindows()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/kernel-nks0039
 ---
 
 # Kernel - NKS0039

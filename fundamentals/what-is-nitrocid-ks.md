@@ -1,6 +1,10 @@
 ---
 description: What is it? How do we simulate the kernel? What aspects are we simulating?
 icon: computer
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/what-is-nitrocid-ks
 ---
 
 # What is Nitrocid?

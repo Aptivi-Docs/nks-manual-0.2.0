@@ -1,6 +1,10 @@
 ---
 description: How the settings application works?
 icon: pickaxe
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/kernel-settings/mechanics-of-settings-app
 ---
 
 # Mechanics of Settings App
@@ -25,25 +29,25 @@ Here's how the settings application works:
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Loads the configuration</mark>
+#### <mark style="color:$primary;">Loads the configuration</mark>
 
 When the settings application is loaded, it loads one of these files to the cached settings entry object to be used. The application then tries to list all the sections passed to it.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Populates the settings entries</mark>
+#### <mark style="color:$primary;">Populates the settings entries</mark>
 
 If the user enters a section, the app will make a list of each available settings entry found in the `Keys` variable with their values, queried by the `ConfigTools.GetValueFromEntry()` function in the `Nitrocid.Kernel.Configuration` namespace.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Determines the value type</mark>
+#### <mark style="color:$primary;">Determines the value type</mark>
 
 When the user changes a value in the selected entry, the settings application determines what to do based on the type and gives the user an option to input the new value. The next page actually explains what to do based on the type.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Sets the value</mark>
+#### <mark style="color:$primary;">Sets the value</mark>
 
 When the user sets a new value, the app attempts to set a value by delegating the `PropertyManager.SetPropertyValue()` function in the `Nitrocid.Misc.Reflection` namespace.
 {% endstep %}

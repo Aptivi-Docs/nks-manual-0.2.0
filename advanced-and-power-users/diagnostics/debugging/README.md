@@ -3,6 +3,10 @@ description: >-
   NO CHEATING! We're joking, debugging actually helps you find defects in the
   kernel.
 icon: microscope
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/diagnostics/debugging
 ---
 
 # Debugging

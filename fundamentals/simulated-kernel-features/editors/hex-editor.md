@@ -1,6 +1,10 @@
 ---
 description: Edit your hex files reliably and in bytes
 icon: binary
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/editors/hex-editor
 ---
 
 # Hex Editor

@@ -1,6 +1,10 @@
 ---
 description: Editing your JSON files using just commands
 icon: pen-to-square
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-editors/json-editor
 ---
 
 # JSON Editor

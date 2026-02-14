@@ -1,6 +1,10 @@
 ---
 description: Manage your messages with this mail client
 icon: envelope
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking/mail-client
 ---
 
 # Mail Client
@@ -23,19 +27,19 @@ To connect the mail client to your own e-mail address, follow these steps:
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Sign in to the mail shell</mark>
+#### <mark style="color:$primary;">Sign in to the mail shell</mark>
 
 In the normal UESH shell, execute the `mail <address>` command to provide the credentials needed
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Wait for authentication to complete</mark>
+#### <mark style="color:$primary;">Wait for authentication to complete</mark>
 
 Wait for a few seconds while your e-mail is being signed in
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Open the mail TUI (optional)</mark>
+#### <mark style="color:$primary;">Open the mail TUI (optional)</mark>
 
 You can also use the interactive TUI version of the mail client by issuing the `tui` command inside the mail shell.
 {% endstep %}

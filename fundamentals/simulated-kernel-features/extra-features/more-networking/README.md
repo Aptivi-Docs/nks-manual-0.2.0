@@ -1,6 +1,10 @@
 ---
 description: More networking features
 icon: earth-africa
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking
 ---
 
 # More Networking

@@ -1,6 +1,10 @@
 ---
 description: Changing how the regular expression works
 icon: plug-circle-bolt
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-drivers/regular-expression-drivers
 ---
 
 # Regular Expression Drivers

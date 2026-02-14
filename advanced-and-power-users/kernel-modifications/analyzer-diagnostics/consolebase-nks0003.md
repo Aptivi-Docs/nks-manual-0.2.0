@@ -1,6 +1,10 @@
 ---
 description: Use SetTitle() from ConsoleExtensions
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/consolebase-nks0003
 ---
 
 # ConsoleBase - NKS0003

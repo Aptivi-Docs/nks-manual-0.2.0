@@ -1,6 +1,10 @@
 ---
 description: Trying to find a defect in the kernel? Great! Thanks for your contribution!
 icon: virus-covid
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/diagnostics
 ---
 
 # Diagnostics
@@ -31,25 +35,25 @@ Here's how, assuming that Nitrocid KS is already open:
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Open Visual Studio</mark>
+#### <mark style="color:$primary;">Open Visual Studio</mark>
 
 Open Visual Studio to the empty project
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Attach to process</mark>
+#### <mark style="color:$primary;">Attach to process</mark>
 
 Right-click on `Debug` -> `Attach to Process`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Find Nitrocid</mark>
+#### <mark style="color:$primary;">Find Nitrocid</mark>
 
 Find `Nitrocid.exe`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Attach it</mark>
+#### <mark style="color:$primary;">Attach it</mark>
 
 Click on `Attach`
 {% endstep %}
@@ -59,7 +63,7 @@ Click on `Attach`
 In case Visual Studio is asking for source files, point to a file within the Nitrocid KS source
 {% endhint %}
 
-### <mark style="color:$primary;">`KernelException`</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">Class</mark>
+### <mark style="color:$primary;">`KernelException`</mark> <mark style="color:$primary;">Class</mark>
 
 `KernelException` is an exception class that uses the exception type to give you a possible cause for each exception type. The kernel (and your mods) make extensive use of this exception to signal an error, but this class can also hold an inner exception of either the nested `KernelException` class or any of the `Exception` classes.
 

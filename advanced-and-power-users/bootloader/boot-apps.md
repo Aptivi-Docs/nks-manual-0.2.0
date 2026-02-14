@@ -1,6 +1,10 @@
 ---
 description: Deep explanation about the kernel environments.
 icon: envira
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/bootloader/boot-apps
 ---
 
 # Kernel Environments

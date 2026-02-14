@@ -1,6 +1,10 @@
 ---
 description: Debugging the kernel locally
 icon: bugs
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/diagnostics/debugging/local-debugging
 ---
 
 # Local Debugging
@@ -37,7 +41,7 @@ where level is one of:
 * `I`: Informational message (as `INF`)
 * `W`: Warning message (as `WRN`)
 * `E`: Error message (as `ERR`)
-* `F`: Fatal error message  (as `FTL`)
+* `F`: Fatal error message (as `FTL`)
 
 ***
 

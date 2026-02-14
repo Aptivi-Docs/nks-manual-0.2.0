@@ -1,6 +1,10 @@
 ---
 description: Calculate your mathematical expressions and convert units
 icon: scale-balanced
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/unit-converter
 ---
 
 # Unit Converter

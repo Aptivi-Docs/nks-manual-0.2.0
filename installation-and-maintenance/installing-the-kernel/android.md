@@ -1,6 +1,10 @@
 ---
 description: How to install Nitrocid KS on Android
 icon: android
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/installation-and-maintenance/installing-the-kernel/android
 ---
 
 # Android
@@ -29,7 +33,7 @@ Once you're done, follow the steps:
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Set up environment</mark>
+#### <mark style="color:$primary;">Set up environment</mark>
 
 You'll need to set up the environment.
 
@@ -41,7 +45,7 @@ You'll need to set up the environment.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Set up PulseAudio</mark>
+#### <mark style="color:$primary;">Set up PulseAudio</mark>
 
 You'll need to set up PulseAudio.
 
@@ -54,7 +58,7 @@ You'll need to set up PulseAudio.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Configure the Ubuntu package manager</mark>
+#### <mark style="color:$primary;">Configure the Ubuntu package manager</mark>
 
 In the proot environment, you'll need to configure the Ubuntu package manager to be able to install packages.
 
@@ -66,18 +70,18 @@ In the proot environment, you'll need to configure the Ubuntu package manager to
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Install .NET 10.0, wget, and unzip</mark>
+#### <mark style="color:$primary;">Install .NET 10.0, wget, and unzip</mark>
 
 You won't be able to run BassBoom if you haven't installed .NET 10.0.
 
 1. Install the .NET 10.0 runtime
    * `apt install dotnet-runtime-10.0`
 2. Install `wget` and `unzip`
-   * `apt install wget unzip`&#x20;
+   * `apt install wget unzip`
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Download the ZIP archive</mark>
+#### <mark style="color:$primary;">Download the ZIP archive</mark>
 
 Follow this step to download the ZIP archive.
 
@@ -86,7 +90,7 @@ Follow this step to download the ZIP archive.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Extract the ZIP archive</mark>
+#### <mark style="color:$primary;">Extract the ZIP archive</mark>
 
 Follow this step to extract the ZIP archive.
 
@@ -95,7 +99,7 @@ Follow this step to extract the ZIP archive.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Execute Nitrocid</mark>
+#### <mark style="color:$primary;">Execute Nitrocid</mark>
 
 Follow this step to execute Nitrocid.
 
@@ -119,7 +123,7 @@ To upgrade, follow these steps:
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Log in to the Ubuntu proot environment</mark>
+#### <mark style="color:$primary;">Log in to the Ubuntu proot environment</mark>
 
 In the proot environment, you'll need to login to it.
 
@@ -128,7 +132,7 @@ In the proot environment, you'll need to login to it.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Download the ZIP archive</mark>
+#### <mark style="color:$primary;">Download the ZIP archive</mark>
 
 Follow this step to download the ZIP archive.
 
@@ -137,7 +141,7 @@ Follow this step to download the ZIP archive.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Extract the ZIP archive</mark>
+#### <mark style="color:$primary;">Extract the ZIP archive</mark>
 
 Follow this step to extract the ZIP archive.
 
@@ -146,7 +150,7 @@ Follow this step to extract the ZIP archive.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Execute Nitrocid</mark>
+#### <mark style="color:$primary;">Execute Nitrocid</mark>
 
 Follow this step to execute Nitrocid.
 

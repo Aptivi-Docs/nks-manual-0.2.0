@@ -1,6 +1,10 @@
 ---
 description: Lists your contacts
 icon: square-user
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/contacts
 ---
 
 # Contacts

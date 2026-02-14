@@ -1,6 +1,10 @@
 ---
 description: Files and folders are essential for your daily computing usage
 icon: folder-open
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/files-and-folders
 ---
 
 # Files and Folders

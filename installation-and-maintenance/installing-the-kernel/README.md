@@ -1,6 +1,10 @@
 ---
 description: This page describes about the available methods of installation or upgrade.
 icon: compact-disc
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/installation-and-maintenance/installing-the-kernel
 ---
 
 # Installation and Upgrade
@@ -46,7 +50,7 @@ Depending on your platform, the amount of disk space taken by KS and its runtime
 ## <mark style="color:$primary;">Important considerations for upgrades</mark>
 
 {% hint style="warning" %}
-## Stop!
+### Stop!
 
 Before you can upgrade, you need to consider the following:
 

@@ -1,6 +1,10 @@
 ---
 description: Changing how the random number generator works
 icon: plug-circle-bolt
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/kernel-drivers/rng-drivers
 ---
 
 # RNG Drivers

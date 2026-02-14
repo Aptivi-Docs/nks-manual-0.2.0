@@ -1,6 +1,10 @@
 ---
 description: Read the manual!
 icon: book-open
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/inner-essentials/mod-manual-pages
 ---
 
 # Mod Manual Pages

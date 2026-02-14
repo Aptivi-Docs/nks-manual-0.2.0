@@ -1,6 +1,10 @@
 ---
 description: Diagnosing the kernel the other way!
 icon: syringe
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/diagnostics/other-diagnostics
 ---
 
 # Other Diagnostics

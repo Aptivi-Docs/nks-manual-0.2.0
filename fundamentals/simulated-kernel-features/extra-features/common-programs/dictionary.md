@@ -1,6 +1,10 @@
 ---
 description: The English Dictionary
 icon: book
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/common-programs/dictionary
 ---
 
 # Dictionary

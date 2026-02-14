@@ -1,6 +1,10 @@
 ---
 description: How settings works.
 icon: wrench
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/inner-workings/kernel-settings
 ---
 
 # Kernel Settings

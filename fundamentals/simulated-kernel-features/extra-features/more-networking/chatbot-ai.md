@@ -1,11 +1,15 @@
 ---
 description: AI on your console
 icon: message-bot
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/extra-features/more-networking/chatbot-ai
 ---
 
 # Chatbot AI
 
-<figure><img src="../../../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (191) (1).png" alt=""><figcaption></figcaption></figure>
 
 Nitrocid 0.2.0 provides an addon that allows you to talk to an AI chatbot using the latest ChatGPT models provided by OpenAI. This uses an official OpenAI package found in [NuGet](https://www.nuget.org/packages/OpenAI) which utilizes the ChatGPT REST API.
 

@@ -1,6 +1,10 @@
 ---
 description: Use Making.MakeFile()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/files-nks0014
 ---
 
 # Files - NKS0014

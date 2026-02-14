@@ -1,6 +1,10 @@
 ---
 description: Did you have permission to do this?
 icon: unlock
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/fundamentals/simulated-kernel-features/accounts/permissions
 ---
 
 # Permissions

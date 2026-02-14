@@ -1,6 +1,10 @@
 ---
 description: Two or more than two mods talking to each other in Nitrocid
 icon: phone
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/kernel-modification-management/inter-mod-communication
 ---
 
 # Inter-Mod Communication

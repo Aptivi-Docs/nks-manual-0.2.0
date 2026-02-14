@@ -1,6 +1,10 @@
 ---
 description: Use TimeDateRenderers.RenderTime()
 icon: chart-mixed
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/advanced-and-power-users/kernel-modifications/analyzer-diagnostics/kernel-nks0025
 ---
 
 # Kernel - NKS0025

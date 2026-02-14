@@ -1,6 +1,9 @@
 ---
 description: We depend on...
 icon: handshake
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/yhORwVwuIgJMLsQRqN3S/project-dependencies
 ---
 
 # Credits

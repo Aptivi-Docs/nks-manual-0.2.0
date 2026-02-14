@@ -20,7 +20,7 @@ In case the `getaddons` command didn't work properly, you'll have to resort to i
 
 {% stepper %}
 {% step %}
-### <mark style="color:$primary;">Download the addons archive</mark>
+#### <mark style="color:$primary;">Download the addons archive</mark>
 
 Download an `-addons.zip` file that corresponds to your kernel version from [this page](https://github.com/Aptivi/NitrocidKS/releases) and open your favorite archive manager.
 
@@ -28,7 +28,7 @@ Download an `-addons.zip` file that corresponds to your kernel version from [thi
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Make the addons folder</mark>
+#### <mark style="color:$primary;">Make the addons folder</mark>
 
 Make a new folder under the Nitrocid KS binary folder called `Addons`.
 
@@ -36,7 +36,7 @@ Make a new folder under the Nitrocid KS binary folder called `Addons`.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Extract all addons</mark>
+#### <mark style="color:$primary;">Extract all addons</mark>
 
 Extract all the folders to the `Addons` folder.
 
@@ -44,7 +44,7 @@ Extract all the folders to the `Addons` folder.
 {% endstep %}
 
 {% step %}
-### <mark style="color:$primary;">Verify that the addons start</mark>
+#### <mark style="color:$primary;">Verify that the addons start</mark>
 
 Run Nitrocid KS and verify that the addon commands work.
 {% endstep %}
